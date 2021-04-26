@@ -1,3 +1,12 @@
+## Prereq. 
+
+clone this repo and cd into it:
+
+```bash
+git clone https://github.com/raphywink/CoquiSTTphonemeAlign.git
+cd CoquiSTTphonemeAlign
+```
+
 ## Training in docker container
 
 ### setting up the docker container:
@@ -24,27 +33,30 @@ exit
 
 #### get and preprocess data
 
-download preproc. data (the scripts that gen. the emuDBs are currently not part of this repo):
+download preproc. german mozilla common voice data (the scripts that gen. the emuDBs are currently not part of this repo):
 
 ```bash
+# create data dir
+mkdir data
 # get german librispeech that was preprocessed by MAUS
 cd data
-wget addURL
-unzip data
+wget https://www.phonetik.uni-muenchen.de/~raphael/data/CoquiSTTphonemeAlign/CV.zip
+unzip CV.zip
 
-# create simlinks to wav files in emuDBs to save space
+# in case the unzip doesn't preserve the symlinks
+# create symlinks to wav files in emuDBs to save space
 # note: these have to be relative to work inside of the 
 # docker container
-# cd CV/de/test
-# find ../test_emuDB/ -name '*.wav' -exec ln -s {} . \;
-# cd ../dev
-# find ../dev_emuDB/ -name '*.wav' -exec ln -s {} . \;
-# cd ../train
-# find ../train_emuDB/ -name '*.wav' -exec ln -s {} . \;
+cd CV/de/test
+find ../test_emuDB/ -name '*.wav' -exec ln -s {} . \;
+cd ../dev
+find ../dev_emuDB/ -name '*.wav' -exec ln -s {} . \;
+cd ../train
+find ../train_emuDB/ -name '*.wav' -exec ln -s {} . \;
 ```
 
 
-Gen. train/dev/test CSV files from emuDBs as well as alphabet.txt file:
+Gen. train/dev/test CSV files from emuDBs as well as alphabet.txt +  file:
 
 - `Rscript ./gen_csv_files_from_emuDBs.R`
 
@@ -151,7 +163,15 @@ still have to use DeepSpeech for this (https://deepspeech.readthedocs.io/en/r0.9
 
 ### start server that returns a TextGrid on request
 
-This example uses Deepspeech not Coqui. This works as the models are currently still interchangeable. This is on my TODO list to update
+```bash
+# get model if you didn't train it yourself:
+cd data/
+wget https://www.phonetik.uni-muenchen.de/~raphael/data/CoquiSTTphonemeAlign/transfer_learning_model.zip
+unzip transfer_learning_model.zip
+cd ..
+```
+
+This example uses Deepspeech not Coqui. This works as the models are currently still interchangeable. This is on my TODO list to update...
 
 - in the directory of this README.md file create a venv and install the requirements (not in Docker container)
 - create: `python3 -m venv coqui-stt-venv`
@@ -162,9 +182,19 @@ This example uses Deepspeech not Coqui. This works as the models are currently s
 ```bash
 wget 
 ```
-- create server tmp dir: `mkdir tmp` where the server saves the splits
+- create server tmp dir: `mkdir tmp` where the server saves the splits from the VAD chunker
 - start server: `python3 audioTranscript_TextGrid_server.py --model ./data/transfer_learning_model`
-- curl: `curl -v -X POST -H 'content-type: multipart/form-data' -F aggressive=1 -F SIGNAL=@example_files/himmel_blau_16000.wav http://127.0.0.1:5000/`
+- perform inference by using `curl` to send file to server to process: `curl -v -X POST -H 'content-type: multipart/form-data' -F aggressive=1 -F SIGNAL=@example_files/himmel_blau_16000.wav http://127.0.0.1:5000/`
 
 
+## keep on training:
 
+```bash
+# get checkpoint if you didn't train:
+cd data/
+wget https://www.phonetik.uni-muenchen.de/~raphael/data/CoquiSTTphonemeAlign/transfer_learning_checkpoints.zip
+unzip transfer_learning_checkpoints.zip
+cd ..
+```
+
+same training code as above
