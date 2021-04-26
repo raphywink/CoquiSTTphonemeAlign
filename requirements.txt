@@ -1,0 +1,4 @@
+deepspeech==0.7.0
+webrtcvad
+tgt
+flask

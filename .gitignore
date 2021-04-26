@@ -1,0 +1,5 @@
+data/
+STT/
+tmp/
+coqui-stt-venv/
+__pycache__/

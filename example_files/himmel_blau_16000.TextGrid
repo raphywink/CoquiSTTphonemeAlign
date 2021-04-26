@@ -1,0 +1,934 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 4.08275
+tiers? <exists>
+size = 7
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "vadChunks"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.3900000000000001
+			text = ""
+		intervals [2]:
+			xmin = 0.3900000000000001
+			xmax = 3.929999999999989
+			text = "?  a  m  E  l  d  n  I  m  l  E  t  s  t  n  d  i:  a  l  t  @  n"
+		intervals [3]:
+			xmin = 3.929999999999989
+			xmax = 4.08275
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "alignCandi1"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.3900000000000001
+			text = ""
+		intervals [2]:
+			xmin = 0.3900000000000001
+			xmax = 0.4499999986588956
+			text = "?"
+		intervals [3]:
+			xmin = 0.4499999986588956
+			xmax = 0.9699999833106996
+			text = "a"
+		intervals [4]:
+			xmin = 0.9699999833106996
+			xmax = 1.1099999690055848
+			text = "m"
+		intervals [5]:
+			xmin = 1.1099999690055848
+			xmax = 1.2099999928474428
+			text = "E"
+		intervals [6]:
+			xmin = 1.2099999928474428
+			xmax = 1.3299999976158143
+			text = "l"
+		intervals [7]:
+			xmin = 1.3299999976158143
+			xmax = 1.4499999427795411
+			text = "d"
+		intervals [8]:
+			xmin = 1.4499999427795411
+			xmax = 1.6300000095367433
+			text = "n"
+		intervals [9]:
+			xmin = 1.6300000095367433
+			xmax = 1.6899999523162843
+			text = "I"
+		intervals [10]:
+			xmin = 1.6899999523162843
+			xmax = 1.8299999380111696
+			text = "m"
+		intervals [11]:
+			xmin = 1.8299999380111696
+			xmax = 1.9299999618530275
+			text = "l"
+		intervals [12]:
+			xmin = 1.9299999618530275
+			xmax = 1.9899999046325685
+			text = "E"
+		intervals [13]:
+			xmin = 1.9899999046325685
+			xmax = 2.049999966621399
+			text = "t"
+		intervals [14]:
+			xmin = 2.049999966621399
+			xmax = 2.10999990940094
+			text = "s"
+		intervals [15]:
+			xmin = 2.10999990940094
+			xmax = 2.1699999713897706
+			text = "t"
+		intervals [16]:
+			xmin = 2.1699999713897706
+			xmax = 2.289999976158142
+			text = "n"
+		intervals [17]:
+			xmin = 2.289999976158142
+			xmax = 2.409999980926514
+			text = "d"
+		intervals [18]:
+			xmin = 2.409999980926514
+			xmax = 2.469999923706055
+			text = "i:"
+		intervals [19]:
+			xmin = 2.469999923706055
+			xmax = 2.6300000095367433
+			text = "a"
+		intervals [20]:
+			xmin = 2.6300000095367433
+			xmax = 2.769999876022339
+			text = "l"
+		intervals [21]:
+			xmin = 2.769999876022339
+			xmax = 2.830000057220459
+			text = "t"
+		intervals [22]:
+			xmin = 2.830000057220459
+			xmax = 2.89
+			text = "@"
+		intervals [23]:
+			xmin = 2.89
+			xmax = 2.9299999618530275
+			text = "n"
+		intervals [24]:
+			xmin = 2.9299999618530275
+			xmax = 3.929999999999989
+			text = ""
+		intervals [25]:
+			xmin = 3.929999999999989
+			xmax = 4.08275
+			text = ""
+	item [3]:
+		class = "TextTier"
+		name = "alignCand1-steps"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 65
+		points [1]:
+			number = 0.4099999995529653
+			mark = "?"
+		points [2]:
+			number = 0.42999999910593045
+			mark = "?"
+		points [3]:
+			number = 0.4499999986588956
+			mark = "?"
+		points [4]:
+			number = 0.4699999982118608
+			mark = "?"
+		points [5]:
+			number = 0.48999999403953565
+			mark = "?"
+		points [6]:
+			number = 0.9699999833106996
+			mark = "a"
+		points [7]:
+			number = 1.0700000071525575
+			mark = "?"
+		points [8]:
+			number = 1.0899999880790712
+			mark = "?"
+		points [9]:
+			number = 1.1099999690055848
+			mark = "m"
+		points [10]:
+			number = 1.149999990463257
+			mark = "?"
+		points [11]:
+			number = 1.1699999713897706
+			mark = "?"
+		points [12]:
+			number = 1.2099999928474428
+			mark = "E"
+		points [13]:
+			number = 1.2899999761581422
+			mark = "?"
+		points [14]:
+			number = 1.3099999570846559
+			mark = "?"
+		points [15]:
+			number = 1.3299999976158143
+			mark = "l"
+		points [16]:
+			number = 1.349999978542328
+			mark = "?"
+		points [17]:
+			number = 1.4299999618530275
+			mark = "?"
+		points [18]:
+			number = 1.4499999427795411
+			mark = "d"
+		points [19]:
+			number = 1.5299999856948854
+			mark = "?"
+		points [20]:
+			number = 1.549999966621399
+			mark = "?"
+		points [21]:
+			number = 1.6300000095367433
+			mark = "n"
+		points [22]:
+			number = 1.649999990463257
+			mark = "?"
+		points [23]:
+			number = 1.6699999713897706
+			mark = "?"
+		points [24]:
+			number = 1.6899999523162843
+			mark = "I"
+		points [25]:
+			number = 1.7899999761581422
+			mark = "?"
+		points [26]:
+			number = 1.8099999570846559
+			mark = "?"
+		points [27]:
+			number = 1.8299999380111696
+			mark = "m"
+		points [28]:
+			number = 1.8900000000000001
+			mark = "?"
+		points [29]:
+			number = 1.9099999809265138
+			mark = "?"
+		points [30]:
+			number = 1.9299999618530275
+			mark = "l"
+		points [31]:
+			number = 1.9499999427795411
+			mark = "?"
+		points [32]:
+			number = 1.9699999237060548
+			mark = "?"
+		points [33]:
+			number = 1.9899999046325685
+			mark = "E"
+		points [34]:
+			number = 2.0100000047683717
+			mark = "?"
+		points [35]:
+			number = 2.0299999856948854
+			mark = "?"
+		points [36]:
+			number = 2.049999966621399
+			mark = "t"
+		points [37]:
+			number = 2.0699999475479127
+			mark = "?"
+		points [38]:
+			number = 2.0899999284744264
+			mark = "?"
+		points [39]:
+			number = 2.10999990940094
+			mark = "s"
+		points [40]:
+			number = 2.1300000095367433
+			mark = "?"
+		points [41]:
+			number = 2.149999990463257
+			mark = "?"
+		points [42]:
+			number = 2.1699999713897706
+			mark = "t"
+		points [43]:
+			number = 2.250000014305115
+			mark = "?"
+		points [44]:
+			number = 2.2699999952316285
+			mark = "?"
+		points [45]:
+			number = 2.289999976158142
+			mark = "n"
+		points [46]:
+			number = 2.309999957084656
+			mark = "?"
+		points [47]:
+			number = 2.3299999380111696
+			mark = "?"
+		points [48]:
+			number = 2.409999980926514
+			mark = "d"
+		points [49]:
+			number = 2.4299999618530275
+			mark = "?"
+		points [50]:
+			number = 2.449999942779541
+			mark = "?"
+		points [51]:
+			number = 2.469999923706055
+			mark = "i:"
+		points [52]:
+			number = 2.5499998474121095
+			mark = "?"
+		points [53]:
+			number = 2.5700000667572023
+			mark = "?"
+		points [54]:
+			number = 2.6300000095367433
+			mark = "a"
+		points [55]:
+			number = 2.6699999713897706
+			mark = "?"
+		points [56]:
+			number = 2.6899999523162843
+			mark = "?"
+		points [57]:
+			number = 2.769999876022339
+			mark = "l"
+		points [58]:
+			number = 2.7899998569488527
+			mark = "?"
+		points [59]:
+			number = 2.8099998378753663
+			mark = "?"
+		points [60]:
+			number = 2.830000057220459
+			mark = "t"
+		points [61]:
+			number = 2.850000038146973
+			mark = "?"
+		points [62]:
+			number = 2.8700000190734865
+			mark = "?"
+		points [63]:
+			number = 2.89
+			mark = "@"
+		points [64]:
+			number = 2.909999980926514
+			mark = "?"
+		points [65]:
+			number = 2.9299999618530275
+			mark = "?"
+	item [4]:
+		class = "IntervalTier"
+		name = "alignCandi2"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.3900000000000001
+			text = ""
+		intervals [2]:
+			xmin = 0.3900000000000001
+			xmax = 0.4499999986588956
+			text = "?"
+		intervals [3]:
+			xmin = 0.4499999986588956
+			xmax = 0.9699999833106996
+			text = "a"
+		intervals [4]:
+			xmin = 0.9699999833106996
+			xmax = 1.1099999690055848
+			text = "m"
+		intervals [5]:
+			xmin = 1.1099999690055848
+			xmax = 1.2099999928474428
+			text = "E"
+		intervals [6]:
+			xmin = 1.2099999928474428
+			xmax = 1.3299999976158143
+			text = "l"
+		intervals [7]:
+			xmin = 1.3299999976158143
+			xmax = 1.4499999427795411
+			text = "d"
+		intervals [8]:
+			xmin = 1.4499999427795411
+			xmax = 1.6300000095367433
+			text = "n"
+		intervals [9]:
+			xmin = 1.6300000095367433
+			xmax = 1.6899999523162843
+			text = "I"
+		intervals [10]:
+			xmin = 1.6899999523162843
+			xmax = 1.8299999380111696
+			text = "m"
+		intervals [11]:
+			xmin = 1.8299999380111696
+			xmax = 1.9299999618530275
+			text = "l"
+		intervals [12]:
+			xmin = 1.9299999618530275
+			xmax = 1.9899999046325685
+			text = "E"
+		intervals [13]:
+			xmin = 1.9899999046325685
+			xmax = 2.049999966621399
+			text = "t"
+		intervals [14]:
+			xmin = 2.049999966621399
+			xmax = 2.10999990940094
+			text = "s"
+		intervals [15]:
+			xmin = 2.10999990940094
+			xmax = 2.1699999713897706
+			text = "t"
+		intervals [16]:
+			xmin = 2.1699999713897706
+			xmax = 2.289999976158142
+			text = "n"
+		intervals [17]:
+			xmin = 2.289999976158142
+			xmax = 2.409999980926514
+			text = "d"
+		intervals [18]:
+			xmin = 2.409999980926514
+			xmax = 2.469999923706055
+			text = "i:"
+		intervals [19]:
+			xmin = 2.469999923706055
+			xmax = 2.590000047683716
+			text = "E"
+		intervals [20]:
+			xmin = 2.590000047683716
+			xmax = 2.769999876022339
+			text = "l"
+		intervals [21]:
+			xmin = 2.769999876022339
+			xmax = 2.830000057220459
+			text = "t"
+		intervals [22]:
+			xmin = 2.830000057220459
+			xmax = 2.89
+			text = "@"
+		intervals [23]:
+			xmin = 2.89
+			xmax = 2.9299999618530275
+			text = "n"
+		intervals [24]:
+			xmin = 2.9299999618530275
+			xmax = 3.929999999999989
+			text = ""
+		intervals [25]:
+			xmin = 3.929999999999989
+			xmax = 4.08275
+			text = ""
+	item [5]:
+		class = "TextTier"
+		name = "alignCand2-steps"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 65
+		points [1]:
+			number = 0.4099999995529653
+			mark = "?"
+		points [2]:
+			number = 0.42999999910593045
+			mark = "?"
+		points [3]:
+			number = 0.4499999986588956
+			mark = "?"
+		points [4]:
+			number = 0.4699999982118608
+			mark = "?"
+		points [5]:
+			number = 0.48999999403953565
+			mark = "?"
+		points [6]:
+			number = 0.9699999833106996
+			mark = "a"
+		points [7]:
+			number = 1.0700000071525575
+			mark = "?"
+		points [8]:
+			number = 1.0899999880790712
+			mark = "?"
+		points [9]:
+			number = 1.1099999690055848
+			mark = "m"
+		points [10]:
+			number = 1.149999990463257
+			mark = "?"
+		points [11]:
+			number = 1.1699999713897706
+			mark = "?"
+		points [12]:
+			number = 1.2099999928474428
+			mark = "E"
+		points [13]:
+			number = 1.2899999761581422
+			mark = "?"
+		points [14]:
+			number = 1.3099999570846559
+			mark = "?"
+		points [15]:
+			number = 1.3299999976158143
+			mark = "l"
+		points [16]:
+			number = 1.349999978542328
+			mark = "?"
+		points [17]:
+			number = 1.4299999618530275
+			mark = "?"
+		points [18]:
+			number = 1.4499999427795411
+			mark = "d"
+		points [19]:
+			number = 1.5299999856948854
+			mark = "?"
+		points [20]:
+			number = 1.549999966621399
+			mark = "?"
+		points [21]:
+			number = 1.6300000095367433
+			mark = "n"
+		points [22]:
+			number = 1.649999990463257
+			mark = "?"
+		points [23]:
+			number = 1.6699999713897706
+			mark = "?"
+		points [24]:
+			number = 1.6899999523162843
+			mark = "I"
+		points [25]:
+			number = 1.7899999761581422
+			mark = "?"
+		points [26]:
+			number = 1.8099999570846559
+			mark = "?"
+		points [27]:
+			number = 1.8299999380111696
+			mark = "m"
+		points [28]:
+			number = 1.8900000000000001
+			mark = "?"
+		points [29]:
+			number = 1.9099999809265138
+			mark = "?"
+		points [30]:
+			number = 1.9299999618530275
+			mark = "l"
+		points [31]:
+			number = 1.9499999427795411
+			mark = "?"
+		points [32]:
+			number = 1.9699999237060548
+			mark = "?"
+		points [33]:
+			number = 1.9899999046325685
+			mark = "E"
+		points [34]:
+			number = 2.0100000047683717
+			mark = "?"
+		points [35]:
+			number = 2.0299999856948854
+			mark = "?"
+		points [36]:
+			number = 2.049999966621399
+			mark = "t"
+		points [37]:
+			number = 2.0699999475479127
+			mark = "?"
+		points [38]:
+			number = 2.0899999284744264
+			mark = "?"
+		points [39]:
+			number = 2.10999990940094
+			mark = "s"
+		points [40]:
+			number = 2.1300000095367433
+			mark = "?"
+		points [41]:
+			number = 2.149999990463257
+			mark = "?"
+		points [42]:
+			number = 2.1699999713897706
+			mark = "t"
+		points [43]:
+			number = 2.250000014305115
+			mark = "?"
+		points [44]:
+			number = 2.2699999952316285
+			mark = "?"
+		points [45]:
+			number = 2.289999976158142
+			mark = "n"
+		points [46]:
+			number = 2.309999957084656
+			mark = "?"
+		points [47]:
+			number = 2.3299999380111696
+			mark = "?"
+		points [48]:
+			number = 2.409999980926514
+			mark = "d"
+		points [49]:
+			number = 2.4299999618530275
+			mark = "?"
+		points [50]:
+			number = 2.449999942779541
+			mark = "?"
+		points [51]:
+			number = 2.469999923706055
+			mark = "i:"
+		points [52]:
+			number = 2.5499998474121095
+			mark = "?"
+		points [53]:
+			number = 2.5700000667572023
+			mark = "?"
+		points [54]:
+			number = 2.590000047683716
+			mark = "E"
+		points [55]:
+			number = 2.6699999713897706
+			mark = "?"
+		points [56]:
+			number = 2.6899999523162843
+			mark = "?"
+		points [57]:
+			number = 2.769999876022339
+			mark = "l"
+		points [58]:
+			number = 2.7899998569488527
+			mark = "?"
+		points [59]:
+			number = 2.8099998378753663
+			mark = "?"
+		points [60]:
+			number = 2.830000057220459
+			mark = "t"
+		points [61]:
+			number = 2.850000038146973
+			mark = "?"
+		points [62]:
+			number = 2.8700000190734865
+			mark = "?"
+		points [63]:
+			number = 2.89
+			mark = "@"
+		points [64]:
+			number = 2.909999980926514
+			mark = "?"
+		points [65]:
+			number = 2.9299999618530275
+			mark = "?"
+	item [6]:
+		class = "IntervalTier"
+		name = "alignCandi3"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 24
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.3900000000000001
+			text = ""
+		intervals [2]:
+			xmin = 0.3900000000000001
+			xmax = 0.4499999986588956
+			text = "?"
+		intervals [3]:
+			xmin = 0.4499999986588956
+			xmax = 0.9699999833106996
+			text = "a"
+		intervals [4]:
+			xmin = 0.9699999833106996
+			xmax = 1.1099999690055848
+			text = "m"
+		intervals [5]:
+			xmin = 1.1099999690055848
+			xmax = 1.2099999928474428
+			text = "E"
+		intervals [6]:
+			xmin = 1.2099999928474428
+			xmax = 1.3299999976158143
+			text = "l"
+		intervals [7]:
+			xmin = 1.3299999976158143
+			xmax = 1.6300000095367433
+			text = "n"
+		intervals [8]:
+			xmin = 1.6300000095367433
+			xmax = 1.6899999523162843
+			text = "I"
+		intervals [9]:
+			xmin = 1.6899999523162843
+			xmax = 1.8299999380111696
+			text = "m"
+		intervals [10]:
+			xmin = 1.8299999380111696
+			xmax = 1.9299999618530275
+			text = "l"
+		intervals [11]:
+			xmin = 1.9299999618530275
+			xmax = 1.9899999046325685
+			text = "E"
+		intervals [12]:
+			xmin = 1.9899999046325685
+			xmax = 2.049999966621399
+			text = "t"
+		intervals [13]:
+			xmin = 2.049999966621399
+			xmax = 2.10999990940094
+			text = "s"
+		intervals [14]:
+			xmin = 2.10999990940094
+			xmax = 2.1699999713897706
+			text = "t"
+		intervals [15]:
+			xmin = 2.1699999713897706
+			xmax = 2.289999976158142
+			text = "n"
+		intervals [16]:
+			xmin = 2.289999976158142
+			xmax = 2.409999980926514
+			text = "d"
+		intervals [17]:
+			xmin = 2.409999980926514
+			xmax = 2.469999923706055
+			text = "i:"
+		intervals [18]:
+			xmin = 2.469999923706055
+			xmax = 2.6300000095367433
+			text = "a"
+		intervals [19]:
+			xmin = 2.6300000095367433
+			xmax = 2.769999876022339
+			text = "l"
+		intervals [20]:
+			xmin = 2.769999876022339
+			xmax = 2.830000057220459
+			text = "t"
+		intervals [21]:
+			xmin = 2.830000057220459
+			xmax = 2.89
+			text = "@"
+		intervals [22]:
+			xmin = 2.89
+			xmax = 2.9299999618530275
+			text = "n"
+		intervals [23]:
+			xmin = 2.9299999618530275
+			xmax = 3.929999999999989
+			text = ""
+		intervals [24]:
+			xmin = 3.929999999999989
+			xmax = 4.08275
+			text = ""
+	item [7]:
+		class = "TextTier"
+		name = "alignCand3-steps"
+		xmin = 0.0
+		xmax = 4.08275
+		intervals: size = 62
+		points [1]:
+			number = 0.4099999995529653
+			mark = "?"
+		points [2]:
+			number = 0.42999999910593045
+			mark = "?"
+		points [3]:
+			number = 0.4499999986588956
+			mark = "?"
+		points [4]:
+			number = 0.4699999982118608
+			mark = "?"
+		points [5]:
+			number = 0.48999999403953565
+			mark = "?"
+		points [6]:
+			number = 0.9699999833106996
+			mark = "a"
+		points [7]:
+			number = 1.0700000071525575
+			mark = "?"
+		points [8]:
+			number = 1.0899999880790712
+			mark = "?"
+		points [9]:
+			number = 1.1099999690055848
+			mark = "m"
+		points [10]:
+			number = 1.149999990463257
+			mark = "?"
+		points [11]:
+			number = 1.1699999713897706
+			mark = "?"
+		points [12]:
+			number = 1.2099999928474428
+			mark = "E"
+		points [13]:
+			number = 1.2899999761581422
+			mark = "?"
+		points [14]:
+			number = 1.3099999570846559
+			mark = "?"
+		points [15]:
+			number = 1.3299999976158143
+			mark = "l"
+		points [16]:
+			number = 1.4099999809265138
+			mark = "?"
+		points [17]:
+			number = 1.4299999618530275
+			mark = "?"
+		points [18]:
+			number = 1.6300000095367433
+			mark = "n"
+		points [19]:
+			number = 1.649999990463257
+			mark = "?"
+		points [20]:
+			number = 1.6699999713897706
+			mark = "?"
+		points [21]:
+			number = 1.6899999523162843
+			mark = "I"
+		points [22]:
+			number = 1.7299999141693116
+			mark = "?"
+		points [23]:
+			number = 1.8099999570846559
+			mark = "?"
+		points [24]:
+			number = 1.8299999380111696
+			mark = "m"
+		points [25]:
+			number = 1.8900000000000001
+			mark = "?"
+		points [26]:
+			number = 1.9099999809265138
+			mark = "?"
+		points [27]:
+			number = 1.9299999618530275
+			mark = "l"
+		points [28]:
+			number = 1.9499999427795411
+			mark = "?"
+		points [29]:
+			number = 1.9699999237060548
+			mark = "?"
+		points [30]:
+			number = 1.9899999046325685
+			mark = "E"
+		points [31]:
+			number = 2.0100000047683717
+			mark = "?"
+		points [32]:
+			number = 2.0299999856948854
+			mark = "?"
+		points [33]:
+			number = 2.049999966621399
+			mark = "t"
+		points [34]:
+			number = 2.0699999475479127
+			mark = "?"
+		points [35]:
+			number = 2.0899999284744264
+			mark = "?"
+		points [36]:
+			number = 2.10999990940094
+			mark = "s"
+		points [37]:
+			number = 2.1300000095367433
+			mark = "?"
+		points [38]:
+			number = 2.149999990463257
+			mark = "?"
+		points [39]:
+			number = 2.1699999713897706
+			mark = "t"
+		points [40]:
+			number = 2.250000014305115
+			mark = "?"
+		points [41]:
+			number = 2.2699999952316285
+			mark = "?"
+		points [42]:
+			number = 2.289999976158142
+			mark = "n"
+		points [43]:
+			number = 2.369999899864197
+			mark = "?"
+		points [44]:
+			number = 2.39
+			mark = "?"
+		points [45]:
+			number = 2.409999980926514
+			mark = "d"
+		points [46]:
+			number = 2.4299999618530275
+			mark = "?"
+		points [47]:
+			number = 2.449999942779541
+			mark = "?"
+		points [48]:
+			number = 2.469999923706055
+			mark = "i:"
+		points [49]:
+			number = 2.5499998474121095
+			mark = "?"
+		points [50]:
+			number = 2.5700000667572023
+			mark = "?"
+		points [51]:
+			number = 2.6300000095367433
+			mark = "a"
+		points [52]:
+			number = 2.6699999713897706
+			mark = "?"
+		points [53]:
+			number = 2.6899999523162843
+			mark = "?"
+		points [54]:
+			number = 2.769999876022339
+			mark = "l"
+		points [55]:
+			number = 2.7899998569488527
+			mark = "?"
+		points [56]:
+			number = 2.8099998378753663
+			mark = "?"
+		points [57]:
+			number = 2.830000057220459
+			mark = "t"
+		points [58]:
+			number = 2.850000038146973
+			mark = "?"
+		points [59]:
+			number = 2.8700000190734865
+			mark = "?"
+		points [60]:
+			number = 2.89
+			mark = "@"
+		points [61]:
+			number = 2.909999980926514
+			mark = "?"
+		points [62]:
+			number = 2.9299999618530275
+			mark = "?"
