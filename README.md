@@ -164,7 +164,7 @@ still have to use DeepSpeech for this (https://deepspeech.readthedocs.io/en/r0.9
 ### start server that returns a TextGrid on request
 
 ```bash
-# get model if you didn't train it yourself:
+# get model and scorer if you didn't train it yourself:
 cd data/
 wget https://www.phonetik.uni-muenchen.de/~raphael/data/CoquiSTTphonemeAlign/transfer_learning_model.zip
 unzip transfer_learning_model.zip
@@ -177,11 +177,6 @@ This example uses Deepspeech not Coqui. This works as the models are currently s
 - create: `python3 -m venv coqui-stt-venv`
 - activate: `source coqui-stt-venv/bin/activate`
 - install requirements: `pip install -r requirements.txt`
-- get model and scorer (unless you have trained your own in which case u should build a pbmm model (see )). This folder also has to contain a copy of the `kenlm.scorer` and `maus_inventory_deu-DE.csv`:
-
-```bash
-wget 
-```
 - create server tmp dir: `mkdir tmp` where the server saves the splits from the VAD chunker
 - start server: `python3 audioTranscript_TextGrid_server.py --model ./data/transfer_learning_model`
 - perform inference by using `curl` to send file to server to process: `curl -v -X POST -H 'content-type: multipart/form-data' -F aggressive=1 -F SIGNAL=@example_files/himmel_blau_16000.wav http://127.0.0.1:5000/`
