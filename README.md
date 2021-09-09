@@ -38,7 +38,7 @@ download preproc. german mozilla common voice data (the scripts that gen. the em
 ```bash
 # create data dir
 mkdir data
-# get german librispeech that was preprocessed by MAUS
+# get german CV data that was preprocessed by MAUS
 cd data
 wget https://www.phonetik.uni-muenchen.de/~raphael/data/CoquiSTTphonemeAlign/CV.zip
 unzip CV.zip
